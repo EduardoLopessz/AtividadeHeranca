@@ -16,7 +16,7 @@ public class Arqueiro extends Personagem {
         return precisao;
     }
 
-    public void atacar() {
+    public void atacr() {
         System.out.println(getNome() + " dispara uma flecha!");
         atirar();
     }
