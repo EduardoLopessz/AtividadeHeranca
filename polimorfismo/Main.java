@@ -1,9 +1,9 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Personagem> grupo = new ArrayList<>();
+        ArrayList<Personagem> grupo = new ArrayList<Personagem>();
+
         grupo.add(new Guerreiro("Arthas", 120, 20, 15));
         grupo.add(new Mago("Gandalf", 80, 100, 30));
         grupo.add(new Arqueiro("Legolas", 90, 20, 25));
@@ -12,8 +12,8 @@ public class Main {
         grupo.add(new Paladino("Uther", 130, 20));
 
         System.out.println("----- Batalha do grupo de aventureiros -----");
-        for (Personagem personagem : grupo) {
-            personagem.atacar();
+        for (Personagem p: grupo) {
+            p.atacar();
             System.out.println();
         }
     }

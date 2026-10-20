@@ -16,7 +16,6 @@ public class Guerreiro extends Personagem {
         return armadura;
     }
 
-    @Override
     public void atacar() {
         System.out.println(getNome() + " ataca com sua espada!");
         golpear();

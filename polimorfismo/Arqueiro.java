@@ -16,7 +16,6 @@ public class Arqueiro extends Personagem {
         return precisao;
     }
 
-    @Override
     public void atacar() {
         System.out.println(getNome() + " dispara uma flecha!");
         atirar();

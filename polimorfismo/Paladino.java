@@ -10,7 +10,6 @@ public class Paladino extends Personagem {
         return fe;
     }
 
-    @Override
     public void atacar() {
         System.out.println(getNome() + " golpeia com seu martelo sagrado com fé " + fe + "!");
         recuperarVida(fe / 2);

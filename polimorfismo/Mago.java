@@ -16,7 +16,6 @@ public class Mago extends Personagem {
         return poderMagico;
     }
 
-    @Override
     public void atacar() {
         System.out.println(getNome() + " lança uma bola de fogo!");
         lancarMagia();
